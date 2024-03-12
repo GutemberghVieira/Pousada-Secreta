@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+padding:0;
+margin:0;
+font-family:"Lora"; 
+text-decoration:none;
+list-style:none;  
+box-sizing:border-box;
+}
+ 
+html{
+scroll-behavior:smooth;
+}
+
+html, body{
+width:100%;
+height:100%;
+}
+
+.Navigation-Menu{
+display:flex;
+justify-content:space-around;
+width:100%;
+padding:15px 0;
+background:#fff;
+position:fixed;
+top:0;
+flex-wrap:wrap;
+align-items:center;
+}
+
+.Navigation-Menu a{
+color:#111;
+}
+
+.Navigation-Links ul{
+display:flex;
+}
+
+.Navigation-Links ul li {
+padding:10px;
+margin:0 10px;
+}
+
+.Navigation-Links ul li a{
+color:#F9A019;
+font-weight:bold;
+font-size:16px;
+}
+
+.Navigation-Links ul li a:hover{
+color:#F35E0D;
+transition:.3s ease-in;
+}
+
+.style-for-span{
+color:#F9A019;
+margin:0 5px;
+}
+
+.Wallpaper-Principal-Pousada{
+width:100%;
+height:100%;
+background:url(../assets/BG-Pousada-Secret.jpg) no-repeat;
+background-size:cover;
+display:flex;
+justify-content:center;
+align-items:center;
+background-attachment:fixed;
+}
+
+.Wallpaper-Principal-Pousada div{
+width:480px;
+padding:20px 10px;
+background:#11111175;
+text-align:center;
+border-radius:10px;
+border:1.2px solid gray;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
+
+.Wallpaper-Principal-Pousada div h2,
+.Wallpaper-Principal-Pousada div p{
+font-style:italic;
+}
+
+.Wallpaper-Principal-Pousada div h2{
+color:#F35E0D;
+font-size:35px;
+font-weight:normal;
+}
+
+.Wallpaper-Principal-Pousada div p{
+font-size:24px;
+color:#fff;
+}
+
+.Roomates-containers{
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-direction:column;
+padding:60px 0;
+}
+
+.Roomantes-info{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+height:100%;
+text-align:center;
+}
+
+.heading-roomantes{
+font-size:45px;
+font-weight:normal;
+}
+
+.paragraph-roomantes{
+font-size:20px;
+}
+
+.Roomantes-img{
+display:flex;   
+gap:10px;
+margin:20px 0;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.Roomantes-img img{
+width:350px;
+}
+
+.Roomantes-img a{
+display:block;
+color:#4f4e4e;
+font-size:20px;
+padding:10px 0;
+border-bottom:1.2px  solid #4f4e4e;
+}
+
+h2,
+p
+{
+color:#4f4e4e;
+padding:10px;
+}
+
+.Roomates-containers .scroll{
+overflow:auto scroll;
+width:100%;
+}
+
+.Roomates-containers .scroll
+iframe{
+height:100vh;
+width:100%;
+margin:15px 0 0 0;
+} 
+
+::-webkit-scrollbar{
+background:#fff;
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#F35E0D;
+border-radius:10px;
+}
+
+.broke{
+display:flex;
+width:95%;
+align-items:center;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+
+.broke .div-container{
+width:500px;
+height:100%;
+display:flex;
+padding:10px;
+justify-content:space-between;
+}
+
+.broke .div-container div{
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+}
+
+.broke .div-container img{
+width:130px;
+height:130px;
+}
+
+.broke .div-container h3,
+.broke .div-container p{
+color:#4F4E4E;
+}
+
+.broke .div-container h3{
+font-size:20px;
+font-weight:normal;
+}
+
+.broke .div-container p{
+font-size:15px;
+padding:0;
+}
+
+.Rodape{
+width:100%;
+padding:15px;
+background:#b1b1b1;
+font-weight:bold;
+color:#2f2f2f;
+text-align:center;
+}
+
+.Rodape .Contact{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+max-width:1024px;
+align-items:center;
+border-bottom:1px solid #2f2f2f;
+margin:0 auto;
+}
+
+.Rodape .Contact h2,
+.Rodape .Contact p{
+font-size:18px;
+font-weight:bold;
+color:#2f2f2f;
+font-style:italic;
+text-align:left;
+}
+
+.Rodape .Contact p{
+display:flex;
+align-items:center;
+}
+
+.Rodape p img{
+width:50px;
+margin:0 10px;
+}
+
+.Rodape small{
+font-size:19px;
+margin:10px 0 0 0;
+display:inline-block;
+}
+
+@media(max-width:768px){
+
+.Roomantes-img img{
+width:100%;
+}
+
+}
